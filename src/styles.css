@@ -1,0 +1,13 @@
+.posts {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.posts__item {
+  border: 2px solid black;
+  padding: 15px;
+  width: 150px;
+}
+

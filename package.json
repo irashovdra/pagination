@@ -1,0 +1,17 @@
+{
+  "name": "pagination",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel ./src/index.html --no-cache",
+    "predeploy": "npm run build",
+    "build": "parcel build ./src/index.html --no-cache --public-url /pagination/",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}
